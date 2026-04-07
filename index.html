@@ -49,9 +49,17 @@
     <section id="timeline">
         <h2 class="section-title fade-in">Historical Timeline</h2>
         <div class="timeline-container">
+
+            <div class="timeline-item fade-in">
+                <!-- <div class="timeline-dot"></div> -->
+                <div class="timeline-content">
+                    <h3>Early Civilization</h3>
+                    <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Focusing on galleons and early road networks.</p>
+                </div>
+            </div>
             
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>Spanish Colonial Era (1565–1898)</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Focusing on galleons and early road networks.</p>
@@ -59,7 +67,7 @@
             </div>
 
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>American Colonial Era</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Introduction of motorized vehicles, tramvias, and initial urban planning efforts in Manila.</p>
@@ -67,7 +75,7 @@
             </div>
 
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>Japanese Occupation (1942–1945)</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Infrastructure destruction and repurposing of civilian transport for military logistics.</p>
@@ -75,7 +83,7 @@
             </div>
 
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>Post-WW2</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. The birth of the iconic Jeepney from surplus military jeeps and early rehabilitation efforts.</p>
@@ -83,7 +91,7 @@
             </div>
 
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>Marcos Dictatorship</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Heavy infrastructure borrowing, the construction of the LRT-1, and systemic debt implications.</p>
@@ -91,7 +99,7 @@
             </div>
 
             <div class="timeline-item fade-in">
-                <div class="timeline-dot"></div>
+                <!-- <div class="timeline-dot"></div> -->
                 <div class="timeline-content">
                     <h3>Post-EDSA 1 (1986–Present)</h3>
                     <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Privatization, MRT construction, modernization programs, and the struggle against crippling urban congestion.</p>
@@ -148,12 +156,33 @@
         <h2 class="section-title fade-in">Government Responses</h2>
         <div class="tabs-container fade-in">
             <div class="tabs-nav">
+                <button class="tab-btn" onclick="openTab(event, 'tab-early')">Early Civilization</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-spanish')">Spanish Era</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-american')">American Era</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-japanese')">Japanese Occ.</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-postww2')">Post-WW2</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-marcos')">Marcos Era</button>
                 <button class="tab-btn" onclick="openTab(event, 'tab-postedsa')">Post-EDSA 1</button>
+            </div>
+
+            <div id="tab-early" class="tab-content">
+                <div class="policy-grid">
+                    <div class="policy-card">
+                        <svg class="icon" style="width:32px; height:32px;" viewBox="0 0 24 24"><use href="#icon-law"></use></svg>
+                        <h4>[Early Civilization] [Law/Policy 1]</h4>
+                        <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                    </div>
+                    <div class="policy-card">
+                        <svg class="icon" style="width:32px; height:32px;" viewBox="0 0 24 24"><use href="#icon-law"></use></svg>
+                        <h4>[Early Civilization] [Law/Policy 2]</h4>
+                        <p>[PLACEHOLDER]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="policy-card">
+                        <svg class="icon" style="width:32px; height:32px;" viewBox="0 0 24 24"><use href="#icon-law"></use></svg>
+                        <h4>[Early Civilization] [Law/Policy 3]</h4>
+                        <p>[PLACEHOLDER] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>
 
             <div id="tab-spanish" class="tab-content">
@@ -344,9 +373,8 @@
     </section>
 
     <footer>
-        <p><strong>[PLACEHOLDER] Group Name</strong></p>
-        <p>Course Code: AGEHPHIS - Z19</p>
-        <p>Submission Date: April 10 2026</p>
+        <p><strong>Bolor, Dela Cruz (Rein), Gaitan, Llovit, Natividad, Trinidad</strong></p>
+        <p>GERPHIS - Z19</p>
     </footer>
 
     <script src="script.js"></script>
