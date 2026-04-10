@@ -508,4 +508,9 @@ footer p {
         height: auto;
         max-height: 400px; /* Optional: prevents the image from being overwhelmingly tall on phones */
     }
+
+    /* Stack Key Issues into a single column on mobile */
+    .grid-cards {
+        grid-template-columns: 1fr;
+    }
 }
